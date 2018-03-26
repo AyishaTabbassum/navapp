@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package*.json ./
 
-RUN echo "installing npm completed successfully"
+RUN echo "installing npm for nodejs application deployment"
 RUN npm install
 # If you are building your code for production
 # RUN npm install --only=production
